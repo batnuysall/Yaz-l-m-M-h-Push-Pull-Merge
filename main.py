@@ -1,6 +1,6 @@
 # Dashboard v1.0
-
-import weather_modulu
-
+import weather
 import news
 
+print(weather.get_info())
+print(news.get_info())
